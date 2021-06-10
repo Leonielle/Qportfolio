@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 70px 0;
+    background-color: #0e2294;
+    color: white;
+}
+
+.detail__button {
+    text-align: center;
+}
+
+/* INFO */
+.info {
+    height: 70vh;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.info__content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info__content img {
+    width: 400px;
+    border-radius: 7px;
+}
+
+.info__intro {
+    padding: 0 50px;
+
+}
+
+.info__intro h1 {
+    font-size:  2.5rem;
+}
+
+.info__intro p {
+    line-height: 3rem;
+}
+
+/* PRODUCT */
+.product {
+    background-color: #e1e2e1;
+}
+
+.product__content {
+    display: flex;
+    width: 80%;
+    padding: 70px 0;
+    margin: auto;
+}
+
+.product__content:hover img{
+    transform: translateX(0);
+}
+
+.product__content:hover .product__text {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.product__content img {
+    width: 700px;
+    height: 400px;
+    transform: translateX(410px);
+    transition: all 1s;
+}
+
+.product__text {
+    padding: 0 40px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.product__text h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product__text p {
+    line-height: 2rem;
+}
+
+.product__text a {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 3px solid #0e2294;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0e2294;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 60px;
+}
+
+.product__text a:hover {
+    background-color: #0e2294;
+    color: white;
+}
+
+footer {
+    background-color: #0e2294;
+    padding: 30px 50px;
+
+}
+
+footer h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a {
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+.footer__contact {
+    display: flex;
+}
+
